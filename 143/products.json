@@ -11,8 +11,19 @@
 		"vaults": [
 			"0x438cedcE647491B1d93a73d491eC19A50194c222",
 			"0x5795130BFb9232C7500C6E57A96Fdd18bFA60436",
+			"0xf18f3BC9440ad7940E6E2a86fD0C724AdD2dd0Aa"
+		],
+		"deprecatedVaults": [
 			"0x2067936155c7DB57b1cdCF776B04B9678c245626"
-		]
+		],
+		"vaultOverrides": {
+			"0x2067936155c7DB57b1cdCF776B04B9678c245626": {
+				"notExplorableLend": true,
+				"notExplorableBorrow": true,
+				"deprecationReason": "Deprecated as AUSD collateral. Existing borrowers can repay, unwind, and withdraw.",
+				"portfolioNotice": "This collateral market is deprecated. New borrow and multiply actions are disabled; existing borrowers can repay, unwind, and withdraw."
+			}
+		}
 	},
 	"wmon-bpt-leverage": {
 		"name": "WMON BPT Leverage",

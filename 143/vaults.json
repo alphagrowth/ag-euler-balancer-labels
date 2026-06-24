@@ -14,6 +14,11 @@
 		"description": "Collateral vault for Balancer stablecoin pool BPT.",
 		"entity": "balancer"
 	},
+	"0xf18f3BC9440ad7940E6E2a86fD0C724AdD2dd0Aa": {
+		"name": "Beefy USDT0-AUSD-USDC",
+		"description": "Collateral vault for Beefy USDT0/AUSD/USDC pool.",
+		"entity": "balancer"
+	},
 	"0x7ad9f09B431A4C5F4CbA809d449Fde842192f9ec": {
 		"name": "wnSMON/wnWMON BPT (Kintsu)",
 		"description": "Collateral vault for Balancer Kintsu sMON/WMON pool BPT.",
@@ -26,7 +31,7 @@
 	},
 	"0x2067936155c7DB57b1cdCF776B04B9678c245626": {
 		"name": "wnLOAZND/AZND/wnAUSD BPT",
-		"description": "Collateral vault for Balancer AZND stablecoin pool BPT.",
+		"description": "Deprecated collateral vault for Balancer AZND stablecoin pool BPT. Existing borrowers can repay, unwind, and withdraw.",
 		"entity": "balancer"
 	}
 }
